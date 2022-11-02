@@ -1,0 +1,64 @@
+.carousel {
+  background-image: url(/public/glassesImage/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background: rgba(0, 0, 0, 0.8); */
+  /* filter: grayscale(80%) blur(0px); */
+}
+
+.header {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 100px;
+  padding-top: 20px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.carousel .model {
+  padding-top: 150px;
+  position: relative;
+  /* background-image: url(/public/glassesImage/model.jpg);
+  background-repeat: no-repeat; */
+}
+
+.model .overlay {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 205px;
+}
+
+.model p {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.carousel .model img {
+  display: block;
+  margin: 0 auto;
+}
+
+.list {
+  padding: 20px 100px;
+  margin-top: 50px;
+}
+
+.list_content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: white;
+}
